@@ -41,7 +41,6 @@ func readFile(filename string) io.Reader {
 	if err != nil {
 		panic(err)
 	}
-	// defer handle.Close()
 
 	return handle
 }
